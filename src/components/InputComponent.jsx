@@ -8,7 +8,7 @@ const InputComponent = () => {
                 <input
                     type='text'
                     placeholder='Search here...'
-                    className='text-xl font-light p-2 w-full shadow-xl focus:outline-none capitalize placeholder: lowercase'
+                    className='text-xl font-light p-2 w-full shadow-xl focus:outline-none capitalize'
                 />
                 <SearchOutlined className='text-white text-xl cursor-pointer transition ease-out hover:scale-125' />
                 <EnvironmentOutlined className='text-white text-xl  cursor-pointer transition ease-out hover:scale-125' />
