@@ -4,7 +4,7 @@ import getData from './config/weather';
 
 const App = () => {
     const getWeather = async () => {
-        const data = await getData({ q: 'london   ' });
+        const data = await getData({ q: 'london' });
         console.log(data);
     };
     getWeather();
