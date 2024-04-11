@@ -1,10 +1,10 @@
 import Time_Location from './Time_Location';
 import { Forecast, InputComponent, Temperature_Detail, TopComponent } from './components/exportComponents';
-import getData from './config/weather';
+import getFormattedWeatherData from './config/weather';
 
 const App = () => {
     const getWeather = async () => {
-        const data = await getData({ q: 'london' });
+        const data = await getFormattedWeatherData({ q: 'London' });
         console.log(data);
     };
     getWeather();
